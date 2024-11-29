@@ -17,13 +17,16 @@
 
         <main><NuxtPage /></main>
 
-        <footer></footer>
+        <Footer/>
+
     </div>
 </template>
 
 <script setup>
 import { computed } from 'vue';
 import { useRoute, useRouter} from 'vue-router';
+import Footer from '~/components/Footer.vue';
+
 
 const route = useRoute();
 const router = useRouter();
