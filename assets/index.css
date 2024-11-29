@@ -14,7 +14,7 @@ body {
 background-color: rgba(2,0,36,1);
 }
 .txt-primary {
-    color: rgba(2,0,36,1);
+    color: rgb(5, 0, 90);
 }
 .btn {
   text-align: center;
@@ -99,4 +99,19 @@ background-color: rgba(2,0,36,1);
   
   .btnreversed:hover {
     color: rgba(5,0,106,1); /* Change la couleur du texte */
+  }
+
+  .bar {
+    width: 400px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: rgba(5,0,106,1);;      
+  }
+  .card{
+    padding: 20px 20px;
+    background-color: aliceblue;
+    filter: drop-shadow( 5px 15px 5px rgba(0,0,0,0.4));
+    border-radius: 16px;
+    border: solid 1px #d4d4d4;
+
   }
